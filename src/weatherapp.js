@@ -1,5 +1,4 @@
 import React from "react";
-import CurrentLocation from "./currentLocation";
 import WeatherSearch from "./weatherSearch";
 import "./App.css";
 
