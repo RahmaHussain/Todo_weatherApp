@@ -23,6 +23,9 @@ import React from 'react';
 import TodoApp from './todoapp';
 import WeatherApp from './weatherapp';
 import './App.css'; // Import the CSS 
+import SarufiChatbox from "react-sarufi-chatbox"
+  
+// usage
 
 function App() {
   return (
@@ -35,6 +38,7 @@ function App() {
         </div>
         <div className="app">
           <WeatherApp />
+          <SarufiChatbox botId={1985} />
         </div>
       </div>
     </div>
